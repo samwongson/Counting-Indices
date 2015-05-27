@@ -1,11 +1,11 @@
-# def count_letters(string)
-#   @letters = Hash.new(0)
-#   string.split('').each {|letter| @letters[letter] += 1 }
-#   @letters.delete(" ")
-#   puts @letters
-# end
+def count_letters(string)
+  @letters = Hash.new(0)
+  string.split('').each {|letter| @letters[letter] += 1 }
+  @letters.delete(" ")
+  puts @letters
+end
 
-# count_letters("lighthouse in the house...")
+count_letters("lighthouse in the house...")
 
 def indice_count(string)
   @letters = Hash.new()
